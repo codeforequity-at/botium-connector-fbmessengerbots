@@ -1,0 +1,10 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "botium-sample",
+      "CONTAINERMODE": "fbmessengerbots",
+      "FB_PAGEID": "113372960205769",
+      "FB_USER": "awnsygg_panditberg_1579683053@tfbnw.net"
+    }
+  }
+}
