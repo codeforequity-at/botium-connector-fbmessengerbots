@@ -2,6 +2,7 @@
 
 [![NPM](https://nodei.co/npm/botium-connector-fbmessengerbots.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/fbmessengerbots-connector-fbmessengerbots/)
 
+[![Codeship Status for codeforequity-at/botium-connector-fbmessengerbots](https://app.codeship.com/projects/23d4e5a0-de37-0138-6d66-52346224aab8/status?branch=master)](https://app.codeship.com/projects/409590)
 [![npm version](https://badge.fury.io/js/botium-connector-fbmessengerbots.svg)](https://badge.fury.io/js/botium-connector-fbmessengerbots)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
