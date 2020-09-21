@@ -40,17 +40,14 @@ class BotiumConnectorFBMessengerBots {
     this.fbapi = null
     try {
       this.fbapi = await promisify(fblogin,
-        { 
-          email: this.caps[Capabilities.FB_USER], 
-          password: this.caps[Capabilities.FB_PASSWORD] 
+        {
+          email: this.caps[Capabilities.FB_USER],
+          password: this.caps[Capabilities.FB_PASSWORD]
         },
-        { 
-          logLevel: debugApi.enabled ? 'info' : 'warn' 
+        {
+          logLevel: debugApi.enabled ? 'info' : 'warn'
         }
       )
-
-      //const pageData = await promisify(this.fbapi.getUserID.bind(this.fbapi), `tonichatbot`)
-      //console.log(pageData)
 
       debug(`Login to Facebook page ${this.caps[Capabilities.FB_PAGEID]} with user ${this.caps[Capabilities.FB_USER]} succeeded.`)
     } catch (err) {
